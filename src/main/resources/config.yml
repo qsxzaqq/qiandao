@@ -1,0 +1,27 @@
+lore:
+  - "§7➣ §b每次签到需间隔 §c1 §b天"
+  - "§7➣ §b每次签到可获得 §c神秘箱子*1"
+  - " "
+  - "§7➣ §3特殊奖励"
+  - " §a- §2签到3天，可获得神秘箱子*1"
+  - " §a- §2签到7天，可获得神秘箱子*2"
+  - " §a- §2签到15天，可获得神秘箱子*5"
+  - "  "
+  - "§e本月累计签到了§6 %day% §e天"
+
+qiandao:
+  今天:
+    - "xz %player% 1"
+  累计:
+    3:
+      - "xz givekey %player% 1"
+    7:
+      - "xz givekey %player% 2"
+    15:
+      - "xz givekey %player% 5"
+
+mysql:
+  ip: 127.0.0.1
+  database: minecraft
+  username: root
+  password: 8知道

@@ -1,0 +1,6 @@
+name: Qiandao
+version: ${project.version}
+main: cc.i9mc.qiandao.Qiandao
+authors: [瑾辰, JinVan]
+commands:
+  qiandao:
